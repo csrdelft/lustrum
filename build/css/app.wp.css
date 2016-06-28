@@ -11832,9 +11832,6 @@ ion-content .button:not(.searchbar-ios-cancel) {
     border-left: 2px solid #f0f0f0;
     padding-left: 10px; }
 
-.ios .member-list {
-  min-height: 100%; }
-
 .member-list {
   margin-bottom: 0; }
   .member-list a[ion-item]:not([hidden]):last-of-type .item-inner {
