@@ -1,2 +1,0 @@
-# Lustrum Stek 'Onontdekt'
-
