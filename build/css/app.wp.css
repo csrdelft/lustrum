@@ -11817,25 +11817,6 @@ ion-content .button:not(.searchbar-ios-cancel) {
 .login-page input:-webkit-autofill {
   box-shadow: 0 0 0 1000px white inset; }
 
-.map-page ion-content {
-  background: #e5e3df; }
-
-.map-page ion-list {
-  margin-bottom: 0; }
-
-.map-page #map {
-  width: 100%;
-  height: calc(100% - 90px);
-  opacity: 0;
-  -webkit-transition: opacity 150ms ease-in;
-  transition: opacity 150ms ease-in; }
-
-.map-page #map.show-map {
-  opacity: 1; }
-
-.wrap-text ion-label {
-  white-space: normal; }
-
 .event-list {
   margin-bottom: 0; }
   .event-list [ion-item][category=maaltijd] ion-label {
