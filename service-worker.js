@@ -24,11 +24,11 @@ workboxSW.precache([
   },
   {
     "url": "build/main.css",
-    "revision": "6daf5d258fdb4266216c57b45cba31f4"
+    "revision": "53dc088d6539417bfe8e37d7ca6623f2"
   },
   {
     "url": "index.html",
-    "revision": "8d25c6462fefd3b1f0c5260d3918b700"
+    "revision": "828ec3b975b9d0ce2c0617a4e927e987"
   },
   {
     "url": "manifest.json",
