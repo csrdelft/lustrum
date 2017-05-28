@@ -36,12 +36,8 @@ workboxSW.precache([
   }
 ]);
 
-/**
- * Cache First strategy for all local resources, except this Service
- * Worker itself.
- */
 workboxSW.router.registerRoute(
-  /\/(?!.*service\-worker\.js)(.*)/,
+  '/assets/(.*)',
   workboxSW.strategies.cacheFirst()
 );
 
