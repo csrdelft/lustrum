@@ -37,7 +37,7 @@ workboxSW.precache([
 ]);
 
 workboxSW.router.registerRoute(
-  '/assets/(.*)',
+  /\/assets\/(.*)/,
   workboxSW.strategies.cacheFirst()
 );
 
