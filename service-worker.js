@@ -36,7 +36,7 @@ workboxSW.precache([
   },
   {
     "url": "manifest.json",
-    "revision": "196812e3acfe4053b1bd4c968c2510a1"
+    "revision": "272e3a798d8c850caedf0f86fc8330b8"
   }
 ]);
 
