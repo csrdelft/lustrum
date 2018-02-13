@@ -1,4 +1,4 @@
-importScripts('./build/workbox-sw.prod.v1.1.0.js');
+importScripts('./build/workbox-sw.prod.v2.1.2.js');
 
 const workboxSW = new WorkboxSW({
   clientsClaim: true,
@@ -12,27 +12,27 @@ const workboxSW = new WorkboxSW({
 workboxSW.precache([
   {
     "url": "build/main.js",
-    "revision": "b914e5abf65631a949959a472127a3bd"
+    "revision": "a194c7045f57d0c2c48f93dfb614f7fb"
   },
   {
     "url": "build/polyfills.js",
-    "revision": "cdb289d3a60d7aa4b10424dbe2cd76c4"
+    "revision": "443c697fc904cd88a651d09cf5c2fe2b"
   },
   {
     "url": "build/vendor.js",
-    "revision": "f24884e20d026f02c7fb13ffc83916fb"
+    "revision": "03eff3a315a91195b57d128e75b63ce8"
   },
   {
-    "url": "build/workbox-sw.prod.v1.1.0.js",
-    "revision": "df86dfc69c6d017722ecb8a16d34c849"
+    "url": "build/workbox-sw.prod.v2.1.2.js",
+    "revision": "685d1ceb6b9a9f94aacf71d6aeef8b51"
   },
   {
     "url": "build/main.css",
-    "revision": "a9b5dce631b6f570be7a87217b90a84e"
+    "revision": "62c4ac531fe5318441a1d5afadad388d"
   },
   {
     "url": "index.html",
-    "revision": "825e28e5f184ab1b9fe1bded0f9adab2"
+    "revision": "dba4913c42a0d078602347377574f8f2"
   },
   {
     "url": "manifest.json",
