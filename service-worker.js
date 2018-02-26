@@ -32,7 +32,7 @@ workboxSW.precache([
   },
   {
     "url": "index.html",
-    "revision": "0a86d1dd4df031356e5927088150788b"
+    "revision": "197ff118395be4e0d34d88e9dba6e474"
   },
   {
     "url": "manifest.json",
