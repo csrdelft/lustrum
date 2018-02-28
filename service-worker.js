@@ -12,7 +12,7 @@ const workboxSW = new WorkboxSW({
 workboxSW.precache([
   {
     "url": "build/main.js",
-    "revision": "1cec359e6c5f842ff9abd98e7af4942e"
+    "revision": "64c754a77386abcf52817c5129ecc0dd"
   },
   {
     "url": "build/polyfills.js",
